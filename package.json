@@ -1,0 +1,52 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "description": "learn webpack",
+  "main": "index.jsx",
+  "scripts": {
+    "build": "cross-env NODE_ENV=prodduction webpack --mode production",
+    "start": "cross-env NODE_ENV=development cross-env NODE_OPTIONS=--max-old-space-size=4096 webpack server --mode development --open"
+  },
+  "keywords": [
+    "rosatom",
+    "react",
+    "ts",
+    "webpack"
+  ],
+  "brwserslist": ">0.25%, not dead",
+  "author": "kpp",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+    "@types/react": "^17.0.27",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.3.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.2",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.4.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "react-refresh": "^0.10.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "svg-react-loader": "^0.4.6",
+    "svg-url-loader": "^7.1.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.58.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
